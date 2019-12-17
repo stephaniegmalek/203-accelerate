@@ -18,6 +18,24 @@ Text Domain:  accelerate-theme-child
 .button {
 	background: #45ac9d;
 }
+.featured-work-header {
+  text-align: center;
+  text-transform: uppercase;
+}
+.homepage-featured-work {
+  list-style-type: none;
+  margin: 0;
+}
+li {
+  float: left;
+}
+li h4 {
+  margin: 0;
+  text-align: center;
+}
+li figure {
+  padding: 10px;
+}
 .blog-post {
   width: 50%;
   float: left;
@@ -26,9 +44,81 @@ Text Domain:  accelerate-theme-child
 .blog-post h3 {
   font-size: 1.5em;
 }
+.blog-post h4 {
+  margin-top: 6em;
+  text-align: left;
+  color: lightgrey;
+  text-transform: uppercase;
+}
 .read-more-link {
   font-family: 'Montserrat';
   font-weight: 700;
   color: #45ac9d;
   text-transform: uppercase;
+}
+.case-study-sidebar {
+  width: 33%;
+  float: left;
+  margin-bottom: 2em;
+}
+
+.case-study-sidebar h2 {
+    margin: 4em 0 .25em 0;
+}
+
+.case-study-sidebar h4 {
+  font-size: .75em;
+  font-weight: 400;
+  color: #939799;
+  margin: 0 0 .5em 0;
+}
+
+.case-study-sidebar span {
+  color: black;
+}
+
+.case-study-sidebar p {
+  margin: 2em 0 2em 0;
+}
+
+div.case-study-images {
+  width: 60%;
+  float: left;
+}
+div.case-study-images img {
+  width: 100%;
+  height: auto;
+  margin: 2em 0 2em 0;
+}
+div.menu-social-media-nav-container {
+  margin: 0;
+}
+.social-media-navigation ul {
+  list-style: none;
+}
+.social-media-menu li {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 3px;
+  text-align: center;
+  border-radius: 50%;
+  background: rgba(0,0,0,0.8);
+  font-size: 1.75em;
+}
+.social-media-menu li a {
+  color: white;
+}
+.social-media-menu .menu-item i.fab {
+  margin-top: 0;
+}
+/*.fab {
+  font-size: 1.5em;
+  text-align: center;
+  width: 1.25em;
+  height: 1.25em;
+  color: white;
+  background-color: darkgrey;
+  border-radius: 50%;
+  padding-top: 4px;
 }
