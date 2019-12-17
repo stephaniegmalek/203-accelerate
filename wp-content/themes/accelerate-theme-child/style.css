@@ -26,7 +26,7 @@ Text Domain:  accelerate-theme-child
   list-style-type: none;
   margin: 0;
 }
-li {
+.homepage-featured-work li {
   float: left;
 }
 li h4 {
@@ -90,11 +90,13 @@ div.case-study-images img {
   height: auto;
   margin: 2em 0 2em 0;
 }
+/*Social Media Nav*/
 div.menu-social-media-nav-container {
   margin: 0;
 }
 .social-media-navigation ul {
   list-style: none;
+  text-align: right;
 }
 .social-media-menu li {
   display: inline-block;
@@ -112,13 +114,47 @@ div.menu-social-media-nav-container {
 .social-media-menu .menu-item i.fab {
   margin-top: 0;
 }
-/*.fab {
+/* Contact Form*/
+.nf-form-content {
+  width: 600px;
+  margin: 0 auto;
+}
+.main-content p,
+.main-content h2 {
+  margin: 0 auto;
+  width: 60%;
+}
+.main-content h2 {
   font-size: 1.5em;
-  text-align: center;
-  width: 1.25em;
-  height: 1.25em;
-  color: white;
-  background-color: darkgrey;
-  border-radius: 50%;
-  padding-top: 4px;
+}
+.main-content p {
+  font-size: 0.9em;
+  font-weight: 500;
+}
+#nf-form-1-cont {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 60%;
+}
+#nf-field-1-container,
+#nf-field-2-container {
+  width: 200px;
+  float: left;
+  clear: both;
+}
+#nf-label-field-1,
+#nf-label-field-2,
+#nf-label-field-3 {
+  font-size: 0.9em;
+  font-weight: 100;
+}
+#nf-field-1,
+#nf-field-2,
+#nf-field-3 {
+  background: none;
+}
+#nf-field-4 {
+  background-color: #45ac9d;
+  float: right;
+  width: 200px;
 }
