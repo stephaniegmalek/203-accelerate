@@ -115,10 +115,7 @@ div.menu-social-media-nav-container {
   margin-top: 0;
 }
 /* Contact Form*/
-.nf-form-content {
-  width: 600px;
-  margin: 0 auto;
-}
+
 .main-content p,
 .main-content h2 {
   margin: 0 auto;
@@ -131,16 +128,21 @@ div.menu-social-media-nav-container {
   font-size: 0.9em;
   font-weight: 500;
 }
+.nf-form-fields-required,
+.ninja-forms-req-symbol {
+  display: none;
+}
+.nf-form-content {
+  width: 600px;
+}
 #nf-form-1-cont {
-  margin: 0 auto;
   margin-top: 50px;
-  width: 60%;
 }
 #nf-field-1-container,
 #nf-field-2-container {
-  width: 200px;
-  float: left;
-  clear: both;
+  width: 30%;
+  margin: 0;
+  margin-bottom: 1em;
 }
 #nf-label-field-1,
 #nf-label-field-2,
@@ -157,4 +159,98 @@ div.menu-social-media-nav-container {
   background-color: #45ac9d;
   float: right;
   width: 200px;
+}
+/**About Page **/
+.hero-content {
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0,0,0,0);
+  height: auto;
+  margin: 0 0 1em;
+  padding: 6em 0;
+}
+.header-content h3 {
+  width: 40%;
+  text-align: center;
+  font: 600 1.4em 'Open Sans', Arial, sans-serif;
+  margin: auto;
+  padding: 0 1em;
+  color: #fff;
+}
+.services-header h4 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 6em;
+}
+.services-header p {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 300;
+  margin: 1em 0;
+}
+.about-page .main-content {
+  padding: 0;
+  display: flex;
+  margin: 0;
+}
+ul.about-page-services {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.individual-service {
+  display: flex;
+}
+div .service-container {
+  width: 73%;
+  display: flex;
+  margin: 2em auto;
+  align-items: center;
+  justify-content: space-around;
+}
+div .service-content {
+  width: 55%;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  text-align: left;
+}
+.about-content h2 {
+  font: 500 1.45em 'Open Sans', Arial, sans-serif;
+  margin: 0;
+}
+div.service-icon {
+  justify-content: flex-end;
+}
+.individual-service:nth-child(even) .service-container {
+  flex-direction: row-reverse;
+}
+.about-contact {
+  display: flex;
+  width: 63%;
+  margin: 0 auto;
+  border-top: 1px solid #bfbfbf;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+}
+.about-contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.about-contact h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  float: left;
+  width: 50%;
+}
+.about-contact .button {
+  float: left;
+  margin-top: auto;
 }
