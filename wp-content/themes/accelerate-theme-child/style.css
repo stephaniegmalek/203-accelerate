@@ -37,7 +37,7 @@ li figure {
   padding: 10px;
 }
 .blog-post {
-  width: 50%;
+  width: 45%;
   float: left;
   margin-bottom: 2em;
 }
@@ -116,11 +116,6 @@ div.menu-social-media-nav-container {
 }
 /* Contact Form*/
 
-.main-content p,
-.main-content h2 {
-  margin: 0 auto;
-  width: 60%;
-}
 .main-content h2 {
   font-size: 1.5em;
 }
@@ -138,11 +133,15 @@ div.menu-social-media-nav-container {
 #nf-form-1-cont {
   margin-top: 50px;
 }
+
 #nf-field-1-container,
 #nf-field-2-container {
-  width: 30%;
+  width: 50%;
   margin: 0;
   margin-bottom: 1em;
+}
+#nf-field-2-container {
+  padding-left: 1em;
 }
 #nf-label-field-1,
 #nf-label-field-2,
@@ -159,6 +158,16 @@ div.menu-social-media-nav-container {
   background-color: #45ac9d;
   float: right;
   width: 200px;
+}
+.confirmation-header {
+  color: #45ac9d;
+  font-size: 2em;
+  text-align: center;
+}
+.confirmation-message {
+  font-size: 1.2em;
+  margin-bottom: 100px;
+  text-align: center;
 }
 /**About Page **/
 .hero-content {
@@ -253,4 +262,59 @@ div.service-icon {
 .about-contact .button {
   float: left;
   margin-top: auto;
+}
+/** 404 Page **/
+.error-container {
+  width: 65%;
+  margin: 0 auto;
+}
+.error-img {
+  float: left;
+  margin: 70px 0 70px 100px;
+}
+.error-content {
+  width: 55%;
+  float: left;
+  margin-left: 50px;
+}
+.error-header h2 {
+  font-family: 'Caveat', cursive;
+  color: #45ac9d;
+  font-size: 2em;
+}
+.error-message {
+  font-size: 1.25em;
+  margin: 0;
+  padding: 0;
+}
+/** Twitter Module **/
+.tweet {
+  width: 40%;
+  float: left;
+  margin-left: 100px;
+}
+.tweet h4 {
+  margin-top: 6em;
+  text-align: left;
+  color: lightgrey;
+  text-transform: uppercase;
+}
+h3.widget-title {
+  font-size: 1.5em;
+}
+ul.tweets {
+  list-style: none;
+  margin: 2em 0 2em 0;
+}
+input.button {
+  background-color: #45ac9d;
+  width: 90%;
+  padding: 0;
+  text-align: center;
+}
+#mc4wp_form_widget-2 {
+  border-bottom: 1px solid #BFBFBF;
+}
+div.mc4wp-form-fields input {
+    width: 90%;
 }

@@ -59,4 +59,19 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
+
+<section class="recent-tweets">
+	<div class="site-content">
+		<div class="tweet">
+			<h4>Recent Tweet</h4>
+			<?php if ( is_active_sidebar('sidebar-2') ) : ?>
+					<div id="secondary" class="widget-area" role="complementary">
+						<?php dynamic_sidebar ('sidebar-2' ); ?>
+					</div>
+			<?php endif; ?>
+			<p class="read-more-link"><a href="https://twitter.com/home">Follow Us &rsaquo;</a><p>
+		</div>
+	</div>
+
+</section>
 <?php get_footer(); ?>
