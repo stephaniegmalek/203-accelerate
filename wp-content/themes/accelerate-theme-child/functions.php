@@ -56,3 +56,12 @@ function accelerate_theme_child_widget_init() {
 }
 add_action( 'widgets_init', 'accelerate_theme_child_widget_init' );
 add_theme_support('post-thumbnails');
+
+//creating a new class and adding it only to contact page
+add_filter('body_class', 'custom_class');
+function custom_class($classes) {
+	if (is_page('47358') ) {
+		$classes[] = 'example';
+	}
+	return $classes;
+}
